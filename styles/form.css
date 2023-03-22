@@ -1,0 +1,85 @@
+.form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;	
+}
+
+.form__wrapper
+{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 2;
+  background-color: rgba(12, 12, 12, 0.8);
+}
+
+.form__panel
+{
+  min-width: 20%;
+  padding: 2% 4%;
+  background-color: #0c290c;
+}
+
+.form__element
+{
+	margin: 2.5vh 0;
+	min-height: 2em;
+}
+
+.element__title
+{
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.element__text
+{
+	width: 100%;
+	padding: 3%;
+	box-sizing: border-box;
+}
+
+.element__control
+{
+	width: fit-content;
+}
+
+.controls__container
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.input_element
+{
+  color: #0c290c;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #05b669;
+}
+
+.input_element:hover
+{
+  cursor: pointer;
+  background-color: #f07826;
+}
+
+input[type=text], input[type=password]
+{
+  background-color: #05b669;
+  color: #0c290c;
+  outline: none;
+  border: none;
+}

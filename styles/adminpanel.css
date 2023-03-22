@@ -1,0 +1,66 @@
+@import "/styles/normalize.css";
+@import "/styles/form.css";
+@font-face
+{
+  font-family: "Terminal Font";
+  src:url("/fonts/SourceCodePro-Medium.otf")  
+}
+
+*
+{
+  background-color: #0c290c;
+  color: #cbcbcb;
+  box-sizing: border-box;
+  font-family: "Terminal Font";
+}
+
+table
+{
+  /* table-layout: fixed; */
+  margin: auto;
+  width: 80vw;
+}
+
+h1
+{
+  text-align: center;
+}
+
+th, td
+{
+  background-color: #002000;
+}
+
+td[id=is_removed].visible
+{
+  background-color: #f07826;
+  color: #0c290c;
+}
+
+td[id=is_removed]:hover
+{
+  cursor: pointer;
+  background-color: #f0772681;
+}
+
+td[id=is_removed].visible:hover
+{
+	background-color: #05b6698e;
+  color: #cbcbcb;
+}
+
+tr:hover td
+{
+  background-color: #05b6698e;
+}
+
+button
+{
+  right: 3vw;
+  top: 3vh;
+  position: fixed;
+  cursor: pointer;
+}
+
+
+

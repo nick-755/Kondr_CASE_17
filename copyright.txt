@@ -1,0 +1,28 @@
+https://www.stratege.ru
+/images/products/APOLLO.jpg
+
+https://www.reddit.com/r/LV426/comments/utej49/there_hope_that_you_always_know_a_working_joe/
+/images/products/android.png
+
+https://www.neatoshop.com/product/Seegson-Synthetics
+/images/android.jpg
+
+https://alien.fandom.com/pl/wiki/Weyland-Yutani
+/images/weyland-yutani_corp.jpg
+
+https://github.com/adobe-fonts/source-code-pro/OTF
+/fonts/SourceCodePro-Medium.otf
+
+https://github.com/paulopacitti/sevastolink
+
+Color Palette
++------------------+---------+
+|      Name        |   HEX   |
++------------------+---------+
+| Xenomorph Skin 	 | #0c290c |
+| Terminal Green 	 | #134213 |
+| Seegson Green 	 | #05b669 |
+| Acid Blood 	     | #f07826 |
+| Hypersleep White | #ccd5d4 |
+| Synthetic Skin 	 | #7a807f |
++------------------+---------+

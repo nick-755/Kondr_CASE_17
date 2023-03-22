@@ -1,0 +1,70 @@
+/*
+* using fonts from https://github.com/adobe-fonts/source-code-pro/OTF
+* using color palette from https://github.com/paulopacitti/sevastolink
+*   
+*   +------------------+---------+
+*   |      Name        |   HEX   |
+*   +------------------+---------+
+*   | Xenomorph Skin 	 | #0c290c |
+*   | Terminal Green 	 | #134213 |
+*   | Seegson Green 	 | #05b669 |
+*   | Acid Blood 	     | #f07826 |
+*   | Hypersleep White | #ccd5d4 |
+*   | Synthetic Skin 	 | #7a807f |
+*   +------------------+---------+
+*/
+
+@import "/styles/normalize.css";
+@import "/styles/form.css";
+@import "/styles/main.css";
+@font-face
+{
+  font-family: "Terminal Font";
+  src:url("/fonts/SourceCodePro-Medium.otf")  
+}
+
+textarea::selection
+{
+  background: #0c290c; /* WebKit/Blink Browsers */
+  color: #f07826;
+}
+
+textarea::moz-selection
+{
+  background: #0c290c; /* WebKit/Blink Browsers */
+  color: #f07826;
+}
+
+::selection
+{
+  background: #f07826; /* WebKit/Blink Browsers */
+  color: #0c290c;
+}
+
+::-moz-selection
+{
+  background: #f07826; /* Gecko Browsers */
+  color: #0c290c;
+}
+
+input::selection
+{
+  background: #0c290c; /* WebKit/Blink Browsers */
+  color: #f07826;
+}
+
+input::-moz-selection
+{
+  background: #0c290c; /* Gecko Browsers */
+  color: #f07826;
+}
+
+*
+{
+
+  box-sizing: border-box;
+  color: #cbcbcb;
+  font-family: "Terminal Font";
+}
+
+
